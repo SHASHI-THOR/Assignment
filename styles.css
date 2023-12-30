@@ -1,0 +1,149 @@
+@media only screen and (max-width: 768px) {
+  /* Styles for small screens go here */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: #ff7171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.navbar ul li {
+  /*nav-bar items */
+
+  display: inline;
+  list-style-type: none;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0 1rem 0 1rem;
+}
+.fa-reorder {
+  font-size: 1rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to right bottom,
+    #fff6af,
+    #ffdfa7,
+    #ffc9b5,
+    #ffb9d0,
+    #ffb4ee
+  );
+}
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  width: 50%;
+  height: 80vh;
+  text-align: center;
+}
+.col .desc {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  margin-left: 10rem;
+  width: 70%;
+}
+.col2 {
+  /* object-fit: cover; Scale the image to cover the entire container */
+  display: block;
+  overflow: hidden;
+}
+.col2 img {
+  position: right;
+  height: 80vh;
+  width: 62rem;
+  /* top: -20rem; */
+}
+.hero-heading {
+  display: block;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 10rem;
+  width: 70%;
+}
+.button-div {
+  text-align: left;
+  margin-left: 10rem;
+}
+.click-me {
+  background-color: #ff7171;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  padding: 0.9rem 4rem 0.9rem 4rem;
+}
+
+.img1 img {
+  width: 280px;
+  height: 240px;
+}
+.img2 img {
+  width: 300px;
+  height: 500px;
+}
+
+.outer-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+  height: 80vh;
+}
+.outer-section img {
+  padding: 0.5rem;
+}
+
+.sec-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  width: 50%;
+}
+.sec-row .heading {
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+.sec-row .lower-heading {
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+}
+.sec-row .click {
+  padding-top: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+.sec-row {
+  background-color: #ff7171;
+}
+.second-block {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to right bottom,
+    #fff6af,
+    #ffdfa7,
+    #ffc9b5,
+    #ffb9d0,
+    #ffb4ee
+  );
+}
